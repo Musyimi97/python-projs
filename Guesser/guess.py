@@ -1,7 +1,7 @@
 import random
 
 x = random.randrange(1,100)
-user = int(('please enter any number:')),
+user = int(raw_input('please enter any number:')),
 if user == x:
     print('Jackpot'),
 elif x<user:
