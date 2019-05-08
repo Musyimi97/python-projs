@@ -1,10 +1,11 @@
 import random
 
 x = random.randrange(1,100)
-user = int(raw_input('please enter any number:')),
-if user == x:
+user = input('please enter any number:'),
+val = int(user)
+if val == x:
     print('Jackpot'),
-elif x<user:
+elif x<val:
     print('Number too low')
 else:
     print('Your guess is too high')
