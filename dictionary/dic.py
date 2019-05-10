@@ -8,3 +8,13 @@ d['last'] =4
 
 for key in d:
     print(key, d[key])
+
+
+car ={}
+car['wheels']=4
+car['model'] ='Porsche'
+car['brand'] = 'Cayenne'
+car['color'] ='red'
+
+for key in car:
+    print (key + ": " +car[key])
