@@ -1,7 +1,7 @@
 from tkinter import*
 
 def calc(source, side):
-    storeObj =Frame (source, borderwidth = 1 ,bd = 4,bg ='powder_blue')
+    storeObj =Frame (source, borderwidth = 1 ,bd = 4,bg='powder_blue')
     storeObj.pack(side=side, expand=YES , fill= BOTH)
     return storeObj
 
@@ -18,5 +18,5 @@ class app(Frame):
         self.pack(expand=YES, fill=BOTH)
         self.master.title('Calculator')
 
-if __name__ == '__main__':
-    app().mainloop()
+    display = StringVar()
+    Entry(self, relief=RIDGE,textvariable=display, justify='right',bd='powder_blue' ).pack(side=TOP, expand=YES,fill=BOTH)
