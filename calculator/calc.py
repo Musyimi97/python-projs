@@ -1,5 +1,8 @@
 from tkinter import*
 
+import self as self
+
+
 def calc(source, side):
     storeObj =Frame (source, borderwidth = 1 ,bd = 4,bg='powder_blue')
     storeObj.pack(side=side, expand=YES , fill= BOTH)
