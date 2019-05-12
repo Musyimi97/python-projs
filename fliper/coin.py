@@ -13,4 +13,12 @@ while flips < 1000:
     if flips == 100:
         print('At 100 tosse, heads has come up'+str(heads)+'times so far.')
 
-    
+    if flips == 500:
+        print('Halfway done, and heads has come up'+ str(heads)+'times.')
+
+print()
+print('Out of 1000 coin tosses: ')
+print('\t', 'Heads came up: ', heads)
+tails = (1000- int(heads))
+print('\t', 'Tails came up: ',tails, '\n')
+print('Were you close?')
