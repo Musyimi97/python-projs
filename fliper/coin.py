@@ -7,3 +7,10 @@ heads =0
 while flips < 1000:
     if random.randint(0,1)==1:
         heads +=1
+    flips +=1
+    if flips == 900:
+        print('900 flips and there have been '+str(heads)+ 'heads.')
+    if flips == 100:
+        print('At 100 tosse, heads has come up'+str(heads)+'times so far.')
+
+    
